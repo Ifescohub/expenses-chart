@@ -204,6 +204,7 @@ hr{
    text-decoration: overline;
 }
 
+
 /* -------------Media Query----------------------- */
 @media (max-width: 600px) {
    body{
@@ -213,17 +214,17 @@ hr{
    /* Main Container -------------- */
    .container{
       max-width: 95%;
-      width: 24rem;
+      width: 21rem;
    }
    
    /* Balance Container  */
    .balance_container{
-      padding: 0.7rem;
+      padding: 0.5rem;
    }
    
    /* Chart Container --------------- */
    .chart_container{
-      padding: 0.7rem 1rem;
+      padding: 0.5rem 1rem;
    }
    
    [class*="chart-"]{
@@ -231,15 +232,15 @@ hr{
    }
    
    .chart-amount{
-      padding: 0.3rem;
+      padding: 0.2rem;
       border-radius: 5px;
-      visibility: hidden;
-      font-size: 13px;
+      visibility: visible;
+      font-size: 12px;
    }
    
    .chart-stick{
       margin: 0.5rem auto 0.3rem;
-      width: 2rem; 
+      width: 1.8rem; 
    }
    
    hr{
