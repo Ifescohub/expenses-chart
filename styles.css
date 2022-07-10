@@ -234,7 +234,7 @@ hr{
    .chart-amount{
       padding: 0.2rem;
       border-radius: 5px;
-      visibility: visible;
+      visibility: hidden;
       font-size: 12px;
    }
    
