@@ -77,19 +77,8 @@ body{
    padding-bottom: 0.5rem;
 }
 
-.circle{
-   height: 2.5rem;
-   width: 2.5rem;
-   border-radius: 50%;
-   float: left;
-   position: relative;
-   margin-inline: auto;
-}
-
-.light{
-   border: 2px solid var(--Very-pale-orange);
-   margin-right: -1.3rem;
-   z-index: 1;
+.details h1{
+   font-size: 1.6rem;
 }
 
 /* Chart Container -------------------- */
@@ -122,6 +111,7 @@ body{
    padding: 0.5rem;
    border-radius: 5px;
    visibility: hidden;
+   width: 100%;
 }
 
 .chart-amount.active{
@@ -130,7 +120,7 @@ body{
 
 .chart-stick{
    margin: 0.7rem auto 0.5rem;
-   width: 3rem; 
+   width: 2.7rem; 
 }
 
 .chart-1 .chart-stick{
@@ -162,7 +152,8 @@ body{
 }
 
 .chart-stick:hover{
-   opacity: 0.6;
+   opacity: 0.5;
+   transition: 1s ease-in-out;
 }
 
 hr{
@@ -220,6 +211,10 @@ hr{
    /* Balance Container  */
    .balance_container{
       padding: 0.5rem;
+   }
+
+   .logo img{
+      width: 3.7rem;
    }
    
    /* Chart Container --------------- */
